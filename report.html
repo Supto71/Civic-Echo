@@ -1,0 +1,65 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Report an Issue | Civic Echo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a href="home.html" class="brand">Civic Echo</a>
+  <div class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="reports.html">Reports</a>
+    <a href="report.html" class="nav-button">Report an Issue</a>
+  </div>
+</div></nav>
+
+<main class="form-bg"><div class="wrap" style="width:100%">
+
+    <form class="glass" id="f">
+    <h2>Report a Cleanliness Issue</h2>
+    <p class="sub">Add a photo and a few details. It goes straight to the authorities.</p>
+
+        <label for="t">Issue Title</label>
+    <input id="t" required>
+
+        <div class="row">
+      <div>
+        <label for="c">Category</label>
+        <select id="c" required>
+          <option value="">Select a category</option>             <option>Garbage</option><option>Littering</option><option>Graffiti</option>
+          <option>Potholes</option><option>Blocked Drain</option><option>Other</option>
+        </select>
+      </div>
+      <div>
+        <label for="l">Location</label>
+        <input id="l" required>
+      </div>
+    </div>
+
+    <label for="d">Description</label>
+    <textarea id="d" rows="4" required></textarea>
+        <label for="i">Upload Image</label>
+    <input type="file" id="i" accept="image/*">
+
+    <button class="btn btn-primary" type="submit">Submit Issue</button>
+    <div id="msg">Thank you! Your report has been submitted.</div>       <a href="home.html" class="back">← Back to Home</a>
+  </form>
+</div></main>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><a class="brand" href="home.html">Civic Echo</a>
+      <p>Your city, your voice. A citizen platform for a cleaner, healthier community.</p></div>
+    <div><h4>Explore</h4><a href="home.html">Home</a><a href="reports.html">Reports</a><a href="report.html">Report an Issue</a></div>
+    <div><h4>Contact</h4><a>support@civicecho.example</a><a>University Project</a></div>
+  </div>
+  <div class="copy">© 2026 Civic Echo. All rights reserved.</div>
+</div></footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

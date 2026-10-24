@@ -1,0 +1,114 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Community Reports | Civic Echo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a href="home.html" class="brand">Civic Echo</a>
+  <div class="nav-links">
+    <a href="home.html">Home</a>
+    <a href="reports.html" class="on">Reports</a>
+    <a href="report.html" class="nav-button">Report an Issue</a>
+  </div>
+</div></nav>
+
+<main class="wrap">
+
+  <div class="page-title">
+    <h2>Community Reports</h2>
+    <p>See what your neighbors have reported.</p>
+  </div>
+
+    <div class="search">
+    <input type="search" id="q" placeholder="Search by title or location">
+    <select id="cf" aria-label="Filter by category">
+      <option value="">All categories</option>
+      <option>Garbage</option>
+      <option>Littering</option>
+      <option>Graffiti</option>
+      <option>Potholes</option>
+      <option>Blocked Drain</option>
+      <option>Other</option>
+    </select>
+  </div>
+
+  <p class="count" id="cnt"></p>                                 <p id="none">No reports match your search.</p>
+    <div class="cards" id="cards">
+
+    <article class="card" data-cat="Garbage"><div class="body">
+      <div class="top"><span class="cat">Garbage</span><span class="status">Pending</span></div>
+      <h3>Garbage pile near bus stop</h3>
+      <p>Overflowing waste on the roadside has been piling up for several days.</p>
+      <div class="info"><span class="loc">Mirpur-10, Dhaka</span><span class="ago">25 minutes ago</span></div>
+    </div></article>
+
+    <article class="card" data-cat="Potholes"><div class="body">
+      <div class="top"><span class="cat">Potholes</span><span class="status wip">In Progress</span></div>
+      <h3>Deep potholes on the main road</h3>
+      <p>Several large potholes make the road dangerous for rickshaws and bikes.</p>
+      <div class="info"><span class="loc">Agrabad, Chattogram</span><span class="ago">3 hours ago</span></div>
+    </div></article>
+
+    <article class="card" data-cat="Littering"><div class="body">
+      <div class="top"><span class="cat">Littering</span><span class="status">Pending</span></div>
+      <h3>Plastic waste at the tea stall corner</h3>
+      <p>Wrappers and bottles are scattered across the footpath every evening.</p>
+      <div class="info"><span class="loc">Zindabazar, Sylhet</span><span class="ago">7 hours ago</span></div>
+    </div></article>
+
+    <article class="card" data-cat="Garbage"><div class="body">
+      <div class="top"><span class="cat">Garbage</span><span class="status ok">Resolved</span></div>
+      <h3>Overflowing dustbin near the market</h3>
+      <p>The bin was not emptied for a week. It has now been cleared.</p>
+      <div class="info"><span class="loc">Sonadanga, Khulna</span><span class="ago">1 day ago</span></div>
+    </div></article>
+
+    <article class="card" data-cat="Blocked Drain"><div class="body">
+      <div class="top"><span class="cat">Blocked Drain</span><span class="status">Pending</span></div>
+      <h3>Blocked drain causing waterlogging</h3>
+      <p>Water collects after every rain and spreads onto the road.</p>
+      <div class="info"><span class="loc">Uttara Sector 7, Dhaka</span><span class="ago">2 days ago</span></div>
+    </div></article>
+
+    <article class="card" data-cat="Graffiti"><div class="body">
+      <div class="top"><span class="cat">Graffiti</span><span class="status wip">In Progress</span></div>
+      <h3>Wall defaced near the station</h3>
+      <p>Posters and paint cover the boundary wall of the railway station.</p>
+      <div class="info"><span class="loc">Station Road, Rajshahi</span><span class="ago">3 days ago</span></div>
+    </div></article>
+
+    <article class="card" data-cat="Littering"><div class="body">
+      <div class="top"><span class="cat">Littering</span><span class="status ok">Resolved</span></div>
+      <h3>Litter along the beach path</h3>
+      <p>Food packets and bottles were left near the beach entrance. Cleaned by the local team.</p>
+      <div class="info"><span class="loc">Kolatoli, Cox's Bazar</span><span class="ago">5 days ago</span></div>
+    </div></article>
+
+    <article class="card" data-cat="Other"><div class="body">
+      <div class="top"><span class="cat">Other</span><span class="status">Pending</span></div>
+      <h3>Rotting waste near the launch ghat</h3>
+      <p>Rotting waste near the ghat is causing a bad smell for passengers.</p>
+      <div class="info"><span class="loc">Launch Ghat, Barishal</span><span class="ago">1 week ago</span></div>
+    </div></article>
+
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><a class="brand" href="home.html">Civic Echo</a>
+      <p>Your city, your voice. A citizen platform for a cleaner, healthier community.</p></div>
+    <div><h4>Explore</h4><a href="home.html">Home</a><a href="reports.html">Reports</a><a href="report.html">Report an Issue</a></div>
+    <div><h4>Contact</h4><a>support@civicecho.example</a><a>University Project</a></div>
+  </div>
+  <div class="copy">© 2026 Civic Echo. All rights reserved.</div>
+</div></footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
